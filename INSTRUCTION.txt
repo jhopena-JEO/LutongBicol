@@ -1,0 +1,37 @@
+Name of Student:
+    Opeña, Jhon Eric A.
+
+Section:
+    BSIT 1C
+
+Project Name: 
+    LutongBicol (Authentic Bicolano Cuisine Blog Website)
+
+LIST OF PROGRAMMING LANGUAGES USED
+------------------------------------------------------------------------
+
+* html
+* css
+* Javascript
+
+
+INSTRUCTIONS ON HOW TO ACCESS THE WEBSITE
+------------------------------------------------------------------------
+
+Step 1: Open Project Folder
+   * Find the Homepage.html.
+   * Double Click the file and it will directly go yur Chrome and so on.
+
+Step 2: Browse Recipes & Interactive Search
+   * Use the navigation header at the top right to switch between view layouts ("HOME", "RECIPES", "FEATURED", "CREATE", "ABOUT", "CONTACT").
+   * Test the interactive live index search input bar at the top center of the page. Typing queries like "Halo-Halo", "Kinalas", or "Bicol Express" triggers a real-time, matching dynamic suggestion dropdown menu listing links directly into the recipe detail pages.
+
+Step 3: Interactivity 
+   * Navigate to the "Halo-Halo" recipe view page.
+   * Scroll down to the bottom "Join the discussion" dashboard zone.
+   * Type out your feedback remarks inside the text box layout block container.
+   * Click the solid green "SUBMIT" button interface element. A browser verification popup modal confirms submission validation success without reloading your current workspace viewport view.
+   * Click the "CONTACT" navigation option link on the top menu header bar block.
+   * Scroll down to view the "Recent Messages" listing container element. The feedback message submitted from the recipe module automatically synchronizes and displays instantly under the global shared memory log directory framework!
+
+Step 4: Enjoy!

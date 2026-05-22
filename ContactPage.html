@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LutongBicol</title>
+    <link rel="stylesheet" href="ContactPage.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="navigator">
+            <div class="brand">
+                <a href="HomePage.html"><img src="mayon logo.png" alt="LutongBicol Logo" class="logo"></a>
+                <div class="brand-text">
+                    <h1 class="main_title">Lutong<span class="bicolred">Bicol</span></h1>
+                    <p class="sub_title">Authentic Bicolano Cuisine</p>
+                </div>
+            </div>
+
+            <div class="search-container">
+             <input type="text" placeholder="Search recipes..." id="searchInput" class="search-input" autocomplete="off">
+             <div id="dropdown" class="dropdown-content"></div>
+            </div>
+            
+            <ul class="links">
+                <li><a href="HomePage.html">HOME</a></li>
+                <li><a href="RecipePage.html">RECIPES</a></li>
+                <li><a href="FeaturedPage.html">FEATURED</a></li>
+                <li><a href="CreatePage.html">CREATE</a></li>
+                <li><a href="AboutPage.html">ABOUT</a></li>
+                <li><a href="ContactPage.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <div class="box1">
+        <h1>Contact Us</h1>
+        <p>Have questions, recipe suggestions, or food stories to share? We'd love to hear from you.</p>
+
+        <form id="commentForm">
+            <div class="box2">
+                <div>
+                    <p>Name: </p>
+                    <input type="text" id="commentName" class="sub_box" placeholder="yourname.." required>
+
+                    <p>Email: </p>
+                    <input type="email" id="commentEmail" class="sub_box" placeholder="@gmail.com" required>
+
+                    <p>Subject: </p>
+                    <input type="text" id="commentSubject" class="sub_box" placeholder="suggestion/inquiry" required>
+                </div>
+
+                <div>
+                    <p>Description: </p>
+                    <textarea id="commentDesc" class="bigbox" placeholder="Write your messages here..." required></textarea>
+                </div>
+            </div>
+
+            <div class="but1">
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </div>
+        </form>
+
+        <hr class="comment-divider">
+
+        <h2>Recent Comments & Suggestions</h2>
+        <div id="commentsDisplayContainer"></div>
+    </div>
+
+    <button id="clearCommentsBtn" style="margin-top: 10px; background-color: #777; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px;">
+    Clear All Test Comments
+    </button>
+
+    <footer>
+        <div>
+            <p class="fot">© 2026 LutongBicol — All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="search.js"></script>
+<script src="comments.js"></script>
+        
+    </body>
+</html>

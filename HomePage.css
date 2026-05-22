@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* NAVIGATOR */
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
+.navigator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 4%; 
+    max-width: 1400px;  
+    margin: 0 auto;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.logo {
+    width: auto;
+    height: 80px; 
+    object-fit: contain;
+}
+
+.main_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32; 
+    line-height: 1.1;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub_title {
+    font-size: 12px;
+    color: #666;
+}
+
+.bicolred{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.search-container {
+    flex-grow: 0; 
+}
+
+.search-input {
+    width: 220px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #2e7d32; 
+}
+
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 60px; 
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: color 0.2s ease;
+}
+
+/* Navigator */
+
+/* BODY */
+
+.hero-section {
+    width: auto;
+    height: 510px;
+    
+    background-image: url('mayon\(clear.png');
+    
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    position: relative; 
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.box1{
+    width: 450px;
+    height: 400px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px 0px 0px 10px;
+    padding: 50px;
+}
+
+.body_text{
+    color: white;
+    font-weight: 600;
+    font-size: 28pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+
+.body_sub{
+    color: rgb(221, 221, 221);
+    text-align: justify;
+}
+
+.but_flex{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.but1{
+    width: 140px;
+    height: 45px;
+    background-color: rgba(13, 187, 13, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.but2{
+    width: 140px;
+    height: 45px;
+    background-color: rgba(238, 188, 24, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.but_flex p{
+    color: white;
+    font-size: 11pt;
+    
+}
+.but_flex a{
+    color: white;
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+.box2{
+    width: 650px;
+    height: 400px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 0px 10px 10px 0px;
+    padding: 40px 0px 50px 50px;
+}
+
+.fea{
+    font-size: 28pt;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pic_flex{
+    display: flex;
+}
+
+.kin{
+    border-radius: 10px;
+}
+
+.pic_flex h3{
+    color: white;
+    font-size: 22pt;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+.tend{
+    color: rgb(201, 201, 201);
+    font-size: 12pt;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+}
+
+.nood{
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.sub{
+    color: rgb(201, 201, 201);
+    width: 550px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fots{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Container must be relative so the absolute dropdown aligns perfectly underneath */
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown styling */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    z-index: 1000;
+    margin-top: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+/* Style for each search result link */
+.dropdown-content a {
+    color: #333;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Highlight effect when hovering over a recipe */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #d9383a; /* Matches your Bicol Red branding vibe */
+}
